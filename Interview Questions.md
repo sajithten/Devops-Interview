@@ -1,4 +1,5 @@
 # AWS 
+```
 Storage Classes in S3?
 Volume types in EBS?
 Instance Type in EC2?
@@ -51,9 +52,9 @@ Load Balancer not responding, How to debug it?
 Boot Process in Linux?
 Adding Machines to Auto Scaling Group?
 Cross account Network(Talk about Transit Gateway for Multi Account and tell about Role in IAM)
-
+```
 # DevOps
-
+```
 Print fizz-buzz in python in range 1-100
 Print odd numbers in range 1-100 in python
 Print all numbers in range 1-100 in python
@@ -61,3 +62,4 @@ Stateful set in k8s?
 Advantage of stateful set?
 Stateful set vs deployment?
 Create a jenkins job to create a file in EC2 and create a file inside the instance
+```

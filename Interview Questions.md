@@ -63,3 +63,101 @@ Advantage of stateful set?
 Stateful set vs deployment?
 Create a jenkins job to create a file in EC2 and create a file inside the instance
 ```
+
+```
+1. how to know user is root user or sudo user
+2. how to create users in linux and how to give sudo permissions to user
+3. how to display last 10 commands which we have used in linux
+4. difference b/w docker file and docker compose
+5. explain about dcoker file
+6. explain about docker volumes
+7. how to restart stopped container
+8. difference b/w VM and docker 
+9. why we use ansible and explain about any ansible playbook
+10. what is jenkins profiles and how to create
+11. how much you know about maven and about maven profiles
+12. what is the pipeline stages and explain about build stage
+13. one user wants to process only build step how do you give permissions to user to do only build step for particular job
+14. explain about IAM and some databases in AWS
+15. explain about kubernetes and what is the use and all
+16. name space in docker
+17. 3 containers are running, one container is consuming all the cpu memory (99%) will it be caused any issue to remaining containers? If yes what is the solution?
+18. We are running on one container and that got failed. What is the possible ways to rectify that and what are the steps to take further 
+19. How to check whether the particular process is running properly or not? in linux
+20. I want to stop particular process using linus commands
+21. What are all branches u have used in Jenkins
+22. If build fails what are all the steps we should take
+23. SED command completely
+24. Can we delete content in a file by using SED command
+25. How the automatic tests happens in Jenkins
+26. Docker build option description
+27. We have file called abc.txt in our system, how to check, in which location that file exists using linux command
+28. Tell the branch names you have worked in GIT
+29. Suppose we have a java.exe file and we have to run as a container, write a docker file and mention all the variables which we need to execute java.exe
+30. Day to day activities other than CI/CD
+31. Why we use docker containerization
+
+
+Interview questions..
+1. What is docker why we are using docker  difference between vm?
+2. What is docker cloud & how it is different from docker hub what is the features over docker hub ?
+3. What is docker compose ?
+4.How you will link when the docker containers is in different virtual machine is there any configuration in docker compose file are any command or any variable?
+5.What you will do if one master got corrupted, can we create multiple masters?
+6. What you will do in case any pod deleted?
+7.What is namespaces in kubernetes can you tell me some?
+8.Can you tell me some commands using in kubernetes ?
+9.Tell me the command to create cluster?
+10.Difference between rc and rs?
+11.What is kubernetes?
+12 What is the difference between kubctl & kops?
+13 Why you are using kubectl can you explin why we are using ?
+14 Why we using kops?
+15 What is the difference between docker cloud and docker swarm?
+16 How to attach a volume in cluster at some time the container will be deleted then rs will re-create new container then how to attach that container automatically and how to restore the volume automatically to re-created container?
+17 How many projects you used  kubernetes?
+18 N number of docker containers deployed to different vms how will you manage there is no kubernetes installed?
+19  If installed kubernetes how you will deploy this containers into kubernetes cluster?
+20 Can you tell me the command for creating kubernetes cluster in vm?
+21 How many nodes we required to create kubernetes cluster?
+22  We have nearly 15 nodes in my organization all are decentralized so which node I need to create as a master? Is their any possibility to make all the machines as masters?
+23 Our applications are decentralized I don’t want distributed environment if any thing happens to the master all will collapse , can we create multiple masters?
+24 What is the difference between kubectl and minikube?
+25 If any container down in my cluster how you will rectify?
+27 How to write a script when the first command is executed then execute the below script?
+A)     Java   --version
+If [ $? –eq  0 ]
+ Then
+Echo “print the variable ”
+Else
+Echo “prin the variable”
+fi
+28 How to print the exact file name by using command ?
+A)  First assign path as a variable 
+awk -F '/' '{print $(NF-1)}' <<< "$a"
+29 Can you tell me the sintax for forloop and while loop?
+30 How to dictionary in python?
+A)     Dict={a:10,b:10}
+31 How to add another variable c, with key 10 to the above dictionary ?
+32 How to replace exesting dictionary?
+A)     Dict=[c:10]
+33 How to print shell name?
+34 How to assign a all the arguments to a single variable?
+35 How to print the current processid of current shell?
+36 How to know the file that is entering randomly to my script?
+37How to divide two variables in shell script?
+38 What is trap?
+39 What is  shift in shell script?
+40 How to run our script in background?
+41 How to know the running back ground process id ?
+42 What is $*, $$ and $@?
+43 How to print only directories?
+44 How to print the directory only started with number?
+45 How to grep two strings at a time?
+46 How to grep a string that is started with some string and ends with some string like a…..b ?
+47 How to print string that starts with a?
+48 Did you worked on arrays?
+49 How will you give access of your script to a particular user?
+50 How to access background running scripts and their pid?
+51 How to run our script in foreground?
+```
